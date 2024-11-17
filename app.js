@@ -10,6 +10,7 @@ const HTTP_PORT = 3000;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// Well done: Using a router is a good practice to organize the code. Keep it up!
 app.use('/', router);
 
 // Start server
